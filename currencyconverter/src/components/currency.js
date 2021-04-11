@@ -29,7 +29,7 @@ const Currency= () =>{
   const [errorMessage, setErrorMessage]=useState('');
   //initalizes the states for the various variables.
 
-  const BASE_URL='https://api.exchangeratesapi.io/latest'
+  const BASE_URL='https://api.exchangerate.host/latest'
 
 
 //used for the inital load
