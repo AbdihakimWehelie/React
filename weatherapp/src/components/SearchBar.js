@@ -51,6 +51,10 @@ const SearchBar=() => {
 				<h3>Feels like:</h3>{Math.round(result.main.feels_like)}°
 				<h3>Min/Max temp:</h3>{Math.round(result.main.temp_min)}°/{Math.round(result.main.temp_max)}°
 				<h3>Country:</h3><img src={`https://www.countryflagicons.com/shiny/64/${result.sys.country}.png`}/>
+
+
+
+
       </div>
     );
   });
